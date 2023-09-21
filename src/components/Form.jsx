@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const Form = () => {
+const Form = (props) => {
     const [formData, setFormData] = useState({
         searchterm: "",
       });
